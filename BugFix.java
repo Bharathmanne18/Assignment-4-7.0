@@ -24,7 +24,7 @@ public BugFix(int bid, String bname) {
 }
 
 public static void main(String[]args){
- BugFix b=new BugFix();
+ BugFix b=new BugFix(1," ");
  String change=" "; 
   b.setBid(1);
   b.setBname("");
